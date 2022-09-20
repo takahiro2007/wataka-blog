@@ -1,12 +1,15 @@
 import { css } from "@emotion/react";
+import Layout from "../components/layout";
 
 const Home = () => {
   return (
-    <div css={helloStyle}>
+  <Layout>
+<div css={helloStyle}>
       <h1>Hello!</h1>
       <h1>Hello!</h1>
       <h1>Hello!</h1>
     </div>
+  </Layout>
   );
 };
 
