@@ -9,6 +9,7 @@ const Footer = () => {
 };
 
 const footerStyle = css`
+  margin-top: auto;
   background: lightgray;
   text-align: center;
   padding: 20px 0px;
