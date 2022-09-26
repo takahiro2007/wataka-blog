@@ -2,10 +2,15 @@ import { css } from "@emotion/react";
 import { useRouter } from "next/router";
 import { Button, ButtonGroup } from "@chakra-ui/react";
 import Link from "next/link";
+import Head from "next/head";
 
 const Header = () => {
   const router = useRouter();
   return (
+    <div>
+      <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      </Head>
     <div css={headerContent}>
       <Link href="/" passHref>
         <a>
@@ -38,6 +43,7 @@ const Header = () => {
           About
         </Button>
       </ButtonGroup>
+    </div>
     </div>
   );
 };

@@ -2,12 +2,17 @@ import { css } from "@emotion/react";
 import Layout from "../components/layout";
 import { client } from "/libs/client";
 import type { BlogProps } from "../types/props";
+import Head from "next/head";
 
 const Home = ({ articles, profile, categories }: BlogProps) => {
   return (
     <Layout>
+      <Head>
+        <title>Watakablog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      </Head>
       <div>
-        <h1>{profile.name}</h1>
+        <></>
       </div>
     </Layout>
   );
