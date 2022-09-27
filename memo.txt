@@ -40,3 +40,5 @@ a {
     background: black;
   }
 }
+
+レスポンシブ: 1023px
